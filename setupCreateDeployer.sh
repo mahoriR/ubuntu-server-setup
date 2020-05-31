@@ -21,7 +21,7 @@ function main() {
 
     promptForPassword
 
-    addUserAccount "deployer" "${password}"
+    addNonSudoUserAccount "deployer" "${password}"
 
     echo "Copying current ssh keys to deployer"
     sudo rsync --archive  --chown=deployer:deployer ~/.ssh /home/deployer

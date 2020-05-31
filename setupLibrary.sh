@@ -20,6 +20,20 @@ function addUserAccount() {
     sudo usermod -aG sudo "${username}"
 }
 
+function addNonSudoUserAccount() {
+    local username=${1}
+    local password=${2}
+    local silent_mode=${3}
+
+    if [[ ${silent_mode} == "true" ]]; then
+        sudo adduser --disabled-password --gecos '' "${username}"
+    else
+        sudo adduser --disabled-password "${username}"
+    fi
+
+    echo "${username}:${password}" | sudo chpasswd
+}
+
 # Add the local machine public SSH Key for the new user account
 # Arguments:
 #   Account Username
