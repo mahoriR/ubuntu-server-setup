@@ -73,12 +73,6 @@ Follows <https://www.digitalocean.com/community/tutorials/how-to-install-docker-
 bash setupCreateDeployer.sh
 ```
 
-
 ## Supported versions
 
-This setup script has been tested against Ubuntu 14.04, Ubuntu 16.04, Ubuntu 18.04 and Ubuntu 20.04.
-
-## Running tests
-
-Tests are run against a set of Vagrant VMs. To run the tests, run the following in the project's directory:
-`./tests/tests.sh`
+This setup script has been tested against Ubuntu 18.04 and Ubuntu 20.04.
