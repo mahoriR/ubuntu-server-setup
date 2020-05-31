@@ -53,6 +53,8 @@ Finally, you will be prompted to specify a [timezone](https://en.wikipedia.org/w
 
 ## Install Docker
 
+Run as non-root user
+
 ```bash
 bash setupDocker.sh
 ```
@@ -61,6 +63,8 @@ Follows <https://www.digitalocean.com/community/tutorials/how-to-install-and-use
 
 ## Install Docker Compose
 
+Run as non-root user
+
 ```bash
 bash setupDockerCompose.sh
 ```
@@ -68,6 +72,8 @@ bash setupDockerCompose.sh
 Follows <https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-18-04>
 
 ## Add deployer user for code deployements
+
+Run as non-root user
 
 ```bash
 bash setupCreateDeployer.sh
