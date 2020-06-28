@@ -71,6 +71,16 @@ bash setupDockerCompose.sh
 
 Follows <https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-18-04>
 
+## Upgrade Digital ocean Mertics Agent (Optional)
+
+Run as non-root user
+
+```bash
+bash upgradeDoMetricsAgent.sh
+```
+
+Follows <https://www.digitalocean.com/docs/monitoring/how-to/upgrade-legacy-agent/>
+
 ## Add deployer user for code deployements
 
 Run as non-root user
