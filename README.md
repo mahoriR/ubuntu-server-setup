@@ -71,7 +71,7 @@ bash setupDockerCompose.sh
 
 Follows <https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-18-04>
 
-## Upgrade Digital ocean Mertics Agent (Optional)
+## Upgrade Digital ocean Mertics Agent (Optional). Only Applicable for if setting up a droplet on digital ocean
 
 Run as non-root user
 
